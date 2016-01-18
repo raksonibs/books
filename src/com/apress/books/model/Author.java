@@ -5,6 +5,7 @@ public class Author {
     private String firstName;
     private String lastName;
     public Long getId() {
+    	System.out.println("Test");
         return id;
 }
     public void setId(Long id) {
